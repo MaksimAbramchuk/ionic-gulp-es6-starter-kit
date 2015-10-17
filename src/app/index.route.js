@@ -1,14 +1,29 @@
 function routerConfig ($stateProvider, $urlRouterProvider) {
   'ngInject';
+
   $stateProvider
-    .state('home', {
-      url: '/',
-      templateUrl: 'app/main/main.html',
-      controller: 'MainController',
-      controllerAs: 'main'
+    .state('browse', {
+      url: '/browse',
+      views: {
+        browse: {
+          templateUrl: 'app/locations/browse/browse.html',
+          controller: 'BrowseController',
+          controllerAs: 'browseCtrl'
+        }
+      }
+    })
+    .state('help', {
+      url: '/help',
+      views: {
+        help: {
+          templateUrl: 'app/locations/help/help.html',
+          controller: 'HelpController',
+          controllerAs: 'helpCtrl'
+        }
+      }
     });
 
-  $urlRouterProvider.otherwise('/');
+  $urlRouterProvider.otherwise('/browse')
 }
 
 export default routerConfig;
