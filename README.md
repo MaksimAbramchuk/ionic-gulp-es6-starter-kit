@@ -1,6 +1,8 @@
 #Ionic Gulp boilerplate
 Ionic application boilerplate for Gulp and ES6
 
+![Ionic](http://moduscreate.com/wp-content/uploads/2014/01/ionic-angular-opti.png)
+
 ##Features
 * ES6 instead of ES5
 * SCSS instead of CSS
