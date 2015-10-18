@@ -7,8 +7,7 @@ function routerConfig ($stateProvider, $urlRouterProvider) {
       views: {
         browse: {
           templateUrl: 'app/locations/browse/browse.html',
-          controller: 'BrowseController',
-          controllerAs: 'browseCtrl'
+          controller: 'BrowseController as browseCtrl'
         }
       }
     })
@@ -17,8 +16,7 @@ function routerConfig ($stateProvider, $urlRouterProvider) {
       views: {
         help: {
           templateUrl: 'app/locations/help/help.html',
-          controller: 'HelpController',
-          controllerAs: 'helpCtrl'
+          controller: 'HelpController as helpCtrl'
         }
       }
     });
