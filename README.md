@@ -21,7 +21,7 @@ This command automatically compiles ES6 to ES5, scss, injects bower components, 
 gulp serve
 ```
 ###Mobile app
-When yourapp is interesting enough to be tested on mobile device, create a build.
+When your app is interesting enough to be tested on mobile device, create a build.
 
 Don't forget to compile from sources:
 ```sh
