@@ -20,6 +20,33 @@ This command automatically compiles ES6 to ES5, scss, injects bower components, 
 ```sh
 gulp serve
 ```
+###Mobile app
+When yourapp is interesting enough to be tested on mobile device, create a build.
+
+Don't forget to compile from sources:
+```sh
+gulp
+```
+
+And then we can create the build for iOS:
+
+```sh
+ionic build ios
+```
+
+and even test it, if you use OS X:
+
+```sh
+ionic emulate ios
+``` 
+
+More info about builds, including Android, can be found in Ionic tutorial.
+ 
+One more interesting feature Ionic has: Ionic View. It's amazing thing and I recommend you to try it - pretty simple to use and saves tones of time for debug and testing on real devices. To start, just run:
+
+```sh
+ionic upload
+```
 
 ##Directory layout
 
