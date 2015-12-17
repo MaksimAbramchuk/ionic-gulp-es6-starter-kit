@@ -74,6 +74,6 @@ angular-gulp-ionic-boilerplate
 ![Ionic](http://dndigital.net/wp-content/uploads/2015/03/ionic-logo-blog-767x355.png)
 ![Angular](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/AngularJS_logo.svg/695px-AngularJS_logo.svg.png)
 ![Gulp](https://avatars0.githubusercontent.com/u/6200624?v=3&s=400)
-![Babel](https://mscblogs.blob.core.windows.net/media/dwahlin/Windows-Live-Writer/2272876fb5e4_BAB3/image_8.png)
+![Babel](https://avatars0.githubusercontent.com/u/9637642?v=3&s=400)
 ![SCSS](http://sass-lang.com/assets/img/logos/logo-b6e1ef6e.svg)
 
