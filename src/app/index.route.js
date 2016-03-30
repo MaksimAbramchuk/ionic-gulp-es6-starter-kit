@@ -21,7 +21,7 @@ function routerConfig ($stateProvider, $urlRouterProvider) {
       }
     });
 
-  $urlRouterProvider.otherwise('/browse')
+  $urlRouterProvider.otherwise('/browse');
 }
 
 export default routerConfig;
