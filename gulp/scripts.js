@@ -5,6 +5,7 @@ var gulp = require('gulp');
 var conf = require('./conf');
 
 var browserSync = require('browser-sync');
+var webpackStream = require('webpack-stream');
 
 var $ = require('gulp-load-plugins')();
 
@@ -13,7 +14,7 @@ function webpack(watch, callback) {
     watch: watch,
     module: {
       preLoaders: [{ test: /\.js$/, exclude: /node_modules/, loader: 'jshint-loader'}],
-      loaders: [{ test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader'}]
+      loaders: [{ test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader', query: { presets: ['es2015'] }}]
     },
     output: { filename: 'index.module.js' }
   };
@@ -40,7 +41,7 @@ function webpack(watch, callback) {
   };
 
   return gulp.src(path.join(conf.paths.src, '/app/index.module.js'))
-    .pipe($.webpack(webpackOptions, null, webpackChangeHandler))
+    .pipe(webpackStream(webpackOptions, null, webpackChangeHandler))
     .pipe(gulp.dest(path.join(conf.paths.tmp, '/serve/app')));
 }
 
