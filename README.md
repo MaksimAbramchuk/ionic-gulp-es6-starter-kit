@@ -14,6 +14,24 @@ Ionic application boilerplate for Gulp and ES6
 
 ##Usage
 
+##Installation process
+
+For the first you need to install Node packages by running:
+
+```sh
+npm install
+```
+
+after that install bower components by running
+
+```sh
+bower install
+```
+
+Both `bower` and `npm` must be installed globally at your local machine.
+
+You are ready to start the server.
+
 ###Running the App during Development
 This command automatically compiles ES6 to ES5, scss, injects bower components, generates source maps, starts livereload server and opens your app in the browser.
 
