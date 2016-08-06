@@ -1,8 +1,8 @@
 <!doctype html>
-<html ng-app="angularGulpIonicBoilerplate">
+<html ng-app="ionicFirstApp">
     <head>
         <meta charset="utf-8">
-        <title>angularGulpIonicBoilerplate</title>
+        <title>First Ionic App</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
@@ -25,15 +25,15 @@
              <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
              <![endif]-->
 
-        <ion-nav-bar class="bar-positive">
+        <ion-nav-bar class="bar-dark">
         </ion-nav-bar>
 
-        <ion-tabs class="tabs-positive">
-            <ion-tab icon-on="ion-ios-home" icon-off="ion-ios-home-outline" ui-sref="browse">
-                <ion-nav-view name="browse"></ion-nav-view>
+        <ion-tabs class="tabs-dark">
+            <ion-tab icon-on="ion-ios-home" icon-off="ion-ios-home-outline" ui-sref="restaurants">
+                <ion-nav-view name="restaurants"></ion-nav-view>
             </ion-tab>
-            <ion-tab icon-off="ion-ios-help-outline" icon-on="ion-ios-help" ui-sref="help">
-                <ion-nav-view name="help"></ion-nav-view>
+            <ion-tab icon-on="ion-ios-gear" icon-off="ion-ios-gear-outline" ui-sref="settings">
+                <ion-nav-view name="settings"></ion-nav-view>
             </ion-tab>
         </ion-tabs>
         <!-- build:js(src) scripts/vendor.js -->

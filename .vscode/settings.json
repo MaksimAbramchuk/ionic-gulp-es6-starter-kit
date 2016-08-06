@@ -1,0 +1,5 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "editor.fontFamily": "Mononoki, 'Courier New', monospace",
+    "editor.fontSize": 10,
+}
