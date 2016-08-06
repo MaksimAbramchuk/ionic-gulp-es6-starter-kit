@@ -49,6 +49,7 @@
     "merge-stream": "^1.0.0",
     "phantomjs-prebuilt": "^2.1.7",
     "require-dir": "^0.3.0",
+    "taffy": "^2.6.2",
     "uglify-save-license": "^0.4.1",
     "webpack-stream": "^3.1.0",
     "wiredep": "^4.0.0",
