@@ -1,9 +1,9 @@
-#Ionic Gulp boilerplate
+# Ionic Gulp boilerplate
 Ionic application boilerplate for Gulp and ES6
 
 ![Ionic and Angular](http://moduscreate.com/wp-content/uploads/2014/01/ionic-angular-opti.png)
 
-##Features
+## Features
 * ES6 instead of ES5
 * SCSS instead of CSS
 * Automatic compilation
@@ -12,9 +12,9 @@ Ionic application boilerplate for Gulp and ES6
 * Automatic bower components injection
 * Automatic scripts and stylesheets injection
 
-##Usage
+## Usage
 
-##Installation process
+## Installation process
 
 For the first you need to install Node packages by running:
 
@@ -32,13 +32,13 @@ Both `bower` and `npm` must be installed globally at your local machine.
 
 You are ready to start the server.
 
-###Running the App during Development
+### Running the App during Development
 This command automatically compiles ES6 to ES5, scss, injects bower components, generates source maps, starts livereload server and opens your app in the browser.
 
 ```sh
 gulp serve
 ```
-###Mobile app
+### Mobile app
 When your app is interesting enough to be tested on mobile device, create a build.
 
 Don't forget to compile from sources:
@@ -66,7 +66,7 @@ One more interesting feature Ionic has: Ionic View. It's amazing thing and I rec
 ionic upload
 ```
 
-##Directory layout
+## Directory layout
 
 ### Source
 
@@ -87,7 +87,7 @@ angular-gulp-ionic-boilerplate
         └── index.html       # main page which will be rendered to a client
 ```
 
-##Build pack
+## Build pack
 
 ![Ionic](http://dndigital.net/wp-content/uploads/2015/03/ionic-logo-blog-767x355.png)
 ![Angular](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/AngularJS_logo.svg/695px-AngularJS_logo.svg.png)
